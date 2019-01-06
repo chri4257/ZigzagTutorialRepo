@@ -64,8 +64,8 @@ public class TileManager : MonoBehaviour {
         // This would takes second out of the stack
         GameObject lastRemoved = leftTiles.Pop();
         */
-        CreateTiles(50);
-        for (int j = 0; j < 10;  j++)
+        CreateTiles(100);
+        for (int j = 0; j < 50;  j++)
         {
             SpawnTile();
         }
